@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B34F13E281548CC00D4ADD5 /* FavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B34F13D281548CC00D4ADD5 /* FavModel.swift */; };
 		5B5F4C85280329BD0088ACC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4C84280329BD0088ACC7 /* AppDelegate.swift */; };
-		5B5F4C87280329BD0088ACC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4C86280329BD0088ACC7 /* SceneDelegate.swift */; };
-		5B5F4C89280329BD0088ACC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4C88280329BD0088ACC7 /* ViewController.swift */; };
-		5B5F4C8C280329BD0088ACC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F4C8A280329BD0088ACC7 /* Main.storyboard */; };
+		5B5F4C89280329BD0088ACC7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4C88280329BD0088ACC7 /* HomeViewController.swift */; };
 		5B5F4C8F280329BD0088ACC7 /* TvShowsApp_CodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4C8D280329BD0088ACC7 /* TvShowsApp_CodeChallenge.xcdatamodeld */; };
 		5B5F4C91280329BE0088ACC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F4C90280329BE0088ACC7 /* Assets.xcassets */; };
-		5B5F4C94280329BE0088ACC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F4C92280329BE0088ACC7 /* LaunchScreen.storyboard */; };
+		5B5F4C9D28032A720088ACC7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5B5F4C9C28032A720088ACC7 /* Kingfisher */; };
+		5B5F4CA728032B630088ACC7 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4CA628032B630088ACC7 /* APIRouter.swift */; };
+		5B5F4CAA280330470088ACC7 /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4CA9280330470088ACC7 /* ServiceConfiguration.swift */; };
+		5B5F4CAC2803305B0088ACC7 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4CAB2803305B0088ACC7 /* ServiceManager.swift */; };
+		5B5F4CAF280346530088ACC7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4CAE280346530088ACC7 /* UIView+Extension.swift */; };
+		5B5F4CB1280349830088ACC7 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4CB0280349830088ACC7 /* MovieCell.swift */; };
+		5B5F4CB32803553C0088ACC7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F4CB22803553C0088ACC7 /* Movie.swift */; };
+		5B5F4CD928048F270088ACC7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5B5F4CD828048F270088ACC7 /* Alamofire */; };
+		5B62CE3F281096300078B1B9 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B62CE3E281096300078B1B9 /* heart.png */; };
+		5B83DE9D2805ADB500C97679 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83DE9C2805ADB500C97679 /* DetailViewController.swift */; };
+		5B83DEA02805AE8B00C97679 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83DE9F2805AE8B00C97679 /* UITableView+Extensions.swift */; };
+		5BFA8A852804922D009F00F4 /* GetFavoriteMoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA8A842804922D009F00F4 /* GetFavoriteMoviesResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B34F13D281548CC00D4ADD5 /* FavModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavModel.swift; sourceTree = "<group>"; };
 		5B5F4C81280329BD0088ACC7 /* TvShowsApp-CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TvShowsApp-CodeChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5F4C84280329BD0088ACC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B5F4C86280329BD0088ACC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B5F4C88280329BD0088ACC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B5F4C8B280329BD0088ACC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B5F4C88280329BD0088ACC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5B5F4C8E280329BD0088ACC7 /* TvShowsApp_CodeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TvShowsApp_CodeChallenge.xcdatamodel; sourceTree = "<group>"; };
 		5B5F4C90280329BE0088ACC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B5F4C93280329BE0088ACC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5F4C95280329BE0088ACC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5F4CA628032B630088ACC7 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		5B5F4CA9280330470088ACC7 /* ServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
+		5B5F4CAB2803305B0088ACC7 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		5B5F4CAE280346530088ACC7 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5B5F4CB0280349830088ACC7 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		5B5F4CB22803553C0088ACC7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5B62CE3E281096300078B1B9 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		5B83DE9C2805ADB500C97679 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5B83DE9F2805AE8B00C97679 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		5BFA8A842804922D009F00F4 /* GetFavoriteMoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFavoriteMoviesResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5F4C9D28032A720088ACC7 /* Kingfisher in Frameworks */,
+				5B5F4CD928048F270088ACC7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +78,112 @@
 		5B5F4C83280329BD0088ACC7 /* TvShowsApp-CodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				5B5F4C84280329BD0088ACC7 /* AppDelegate.swift */,
-				5B5F4C86280329BD0088ACC7 /* SceneDelegate.swift */,
-				5B5F4C88280329BD0088ACC7 /* ViewController.swift */,
-				5B5F4C8A280329BD0088ACC7 /* Main.storyboard */,
-				5B5F4C90280329BE0088ACC7 /* Assets.xcassets */,
-				5B5F4C92280329BE0088ACC7 /* LaunchScreen.storyboard */,
-				5B5F4C95280329BE0088ACC7 /* Info.plist */,
+				5B5F4C9F28032AD70088ACC7 /* App */,
+				5B5F4CAD280346350088ACC7 /* Extension */,
+				5B5F4CA8280330320088ACC7 /* Network */,
+				5B5F4CA528032B230088ACC7 /* ViewModel */,
+				5B5F4CA128032AE40088ACC7 /* Model */,
+				5B5F4CA028032ADE0088ACC7 /* Scene */,
+				5B5F4C9E28032AC20088ACC7 /* Service */,
+				5B5F4CA228032AEC0088ACC7 /* Resource */,
 				5B5F4C8D280329BD0088ACC7 /* TvShowsApp_CodeChallenge.xcdatamodeld */,
+				5B5F4C95280329BE0088ACC7 /* Info.plist */,
 			);
 			path = "TvShowsApp-CodeChallenge";
+			sourceTree = "<group>";
+		};
+		5B5F4C9E28032AC20088ACC7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5B5F4C9F28032AD70088ACC7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F4C84280329BD0088ACC7 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5B5F4CA028032ADE0088ACC7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B83DE9A2805AD3800C97679 /* Home */,
+				5B83DE9B2805AD5300C97679 /* Detail */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		5B5F4CA128032AE40088ACC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F4CB22803553C0088ACC7 /* Movie.swift */,
+				5B34F13D281548CC00D4ADD5 /* FavModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B5F4CA228032AEC0088ACC7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F4C90280329BE0088ACC7 /* Assets.xcassets */,
+				5B62CE3E281096300078B1B9 /* heart.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5B5F4CA528032B230088ACC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B5F4CA8280330320088ACC7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F4CDA280491B20088ACC7 /* Response */,
+				5B5F4CA628032B630088ACC7 /* APIRouter.swift */,
+				5B5F4CA9280330470088ACC7 /* ServiceConfiguration.swift */,
+				5B5F4CAB2803305B0088ACC7 /* ServiceManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5B5F4CAD280346350088ACC7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F4CAE280346530088ACC7 /* UIView+Extension.swift */,
+				5B83DE9F2805AE8B00C97679 /* UITableView+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5B5F4CDA280491B20088ACC7 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				5BFA8A842804922D009F00F4 /* GetFavoriteMoviesResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		5B83DE9A2805AD3800C97679 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F4CB0280349830088ACC7 /* MovieCell.swift */,
+				5B5F4C88280329BD0088ACC7 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5B83DE9B2805AD5300C97679 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5B83DE9C2805ADB500C97679 /* DetailViewController.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +202,10 @@
 			dependencies = (
 			);
 			name = "TvShowsApp-CodeChallenge";
+			packageProductDependencies = (
+				5B5F4C9C28032A720088ACC7 /* Kingfisher */,
+				5B5F4CD828048F270088ACC7 /* Alamofire */,
+			);
 			productName = "TvShowsApp-CodeChallenge";
 			productReference = 5B5F4C81280329BD0088ACC7 /* TvShowsApp-CodeChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +234,10 @@
 				Base,
 			);
 			mainGroup = 5B5F4C78280329BD0088ACC7;
+			packageReferences = (
+				5B5F4C9B28032A720088ACC7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				5B5F4CD728048F270088ACC7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5B5F4C82280329BD0088ACC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5F4C94280329BE0088ACC7 /* LaunchScreen.storyboard in Resources */,
+				5B62CE3F281096300078B1B9 /* heart.png in Resources */,
 				5B5F4C91280329BE0088ACC7 /* Assets.xcassets in Resources */,
-				5B5F4C8C280329BD0088ACC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +264,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5F4C89280329BD0088ACC7 /* ViewController.swift in Sources */,
+				5B83DE9D2805ADB500C97679 /* DetailViewController.swift in Sources */,
+				5BFA8A852804922D009F00F4 /* GetFavoriteMoviesResponse.swift in Sources */,
+				5B5F4C89280329BD0088ACC7 /* HomeViewController.swift in Sources */,
+				5B83DEA02805AE8B00C97679 /* UITableView+Extensions.swift in Sources */,
+				5B5F4CA728032B630088ACC7 /* APIRouter.swift in Sources */,
+				5B5F4CB1280349830088ACC7 /* MovieCell.swift in Sources */,
 				5B5F4C8F280329BD0088ACC7 /* TvShowsApp_CodeChallenge.xcdatamodeld in Sources */,
 				5B5F4C85280329BD0088ACC7 /* AppDelegate.swift in Sources */,
-				5B5F4C87280329BD0088ACC7 /* SceneDelegate.swift in Sources */,
+				5B5F4CB32803553C0088ACC7 /* Movie.swift in Sources */,
+				5B5F4CAF280346530088ACC7 /* UIView+Extension.swift in Sources */,
+				5B5F4CAA280330470088ACC7 /* ServiceConfiguration.swift in Sources */,
+				5B34F13E281548CC00D4ADD5 /* FavModel.swift in Sources */,
+				5B5F4CAC2803305B0088ACC7 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5B5F4C8A280329BD0088ACC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B5F4C8B280329BD0088ACC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5B5F4C92280329BE0088ACC7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B5F4C93280329BE0088ACC7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5B5F4C96280329BE0088ACC7 /* Debug */ = {
@@ -296,7 +409,6 @@
 				INFOPLIST_FILE = "TvShowsApp-CodeChallenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +436,6 @@
 				INFOPLIST_FILE = "TvShowsApp-CodeChallenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +473,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B5F4C9B28032A720088ACC7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		5B5F4CD728048F270088ACC7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B5F4C9C28032A720088ACC7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B5F4C9B28032A720088ACC7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5B5F4CD828048F270088ACC7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B5F4CD728048F270088ACC7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5B5F4C8D280329BD0088ACC7 /* TvShowsApp_CodeChallenge.xcdatamodeld */ = {
